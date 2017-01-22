@@ -1,58 +1,61 @@
-#about {
-	padding: 200px 250px;
-	height: 100%;
-	width: 100%;
-	color: black;
-	text-align: left;
-	background-color: #E3E3E3;
-	position: relative;
-}
-
-
 .about-content {
-	text-align: center;
-	position: relative;
 	text-align: left;
+	position: relative;
+	width: 50%;
 }
 
-@media all and (max-width: 768px) {
-	#about {
-		padding: 50px;
-		font-size: 5px;
-	}
-
-	.button {
-		font-size: 5px;
-	}
-
-	.Images {
-		width: 100%;
+@media all and (max-width:768px) {
+	.about-content {
+		padding: 10px;
 	}
 
 	.Images-description {
 		width: 100%;
-		padding: 10px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	#projects {
+		width: 100%;
 	}
 
 	p {
 		font-size: 7px;
 	}
+
+	img {
+		max-width: 200px;
+		height: auto;
+	}
 }
 
-@media all and (min-width: 1920px) {
-	.project-content {
-		padding: 300px;
-	}
+#about {
+	color: black;
+	text-align: left;
+	background-color: #E3E3E3;
+	position: relative;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
 }
 
 body {
 	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 	color: black;	
 	margin: auto;
-	min-width: 100%;
-	max-width: 100%;
 	position: relative;
 	background-color: #F9F7F7;
+	text-align: center;
+	display: table-cell;
+    vertical-align: middle;
 }
 
 .button {
@@ -78,7 +81,7 @@ body {
 	color: white;
 	height: 100%;
 	width: 100%;
-	padding: 25px;
+	padding: 50px;
 	text-align: center;
 	background-color: #222222;
 }
@@ -106,7 +109,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background: url(/Users/jianganson72/Desktop/website/images/earthporn.jpg) no-repeat center center fixed;
+    background: url(/images/earthporn.jpg) no-repeat center center fixed;
 }
 
 .header-content {
@@ -121,18 +124,7 @@ hr {
 }
 
 img {
-	border-radius: 50%;
-}
-
-.icon {
-	border-radius: 50%;
-}
-
-.icon:hover {
-	opacity: 0.6;
-	-webkit-transition: all 0.35s;
-	-moz-transition: all 0.35s;
-	transition: all 0.35s;
+	border-radius: 5%;
 }
 
 .Images {
@@ -144,7 +136,7 @@ img {
 .Images-description {
 	text-align: center;
 	position: relative;
-	padding: 5px 5px 20px 5px;
+	width: 60%;
 }
 
 .Images-content {
@@ -160,7 +152,8 @@ img {
 
 #projects {
 	height: 100%;
-	padding: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	width: 100%;
 	color: black;
 }
