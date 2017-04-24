@@ -1,181 +1,32 @@
-.about-content {
-	text-align: left;
-	position: relative;
-	width: 50%;
-}
-
-@media all and (max-width:768px) {
-	.about-content {
-		padding: 10px;
-	}
-
-	.Images-description {
-		width: 100%;
-		padding-left: 5px;
-		padding-right: 5px;
-	}
-
-	#projects {
-		width: 100%;
-	}
-
-	p {
-		font-size: 7px;
-	}
-
-	img {
-		max-width: 200px;
-		height: auto;
-	}
-}
-
-#about {
-	color: black;
-	text-align: left;
-	background-color: #E3E3E3;
-	position: relative;
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-
-html, body {
-    height: 100%;
-}
-
-html {
-    display: table;
-    margin: auto;
-}
-
-body {
-	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-	color: black;	
-	margin: auto;
-	position: relative;
-	background-color: #F9F7F7;
-	text-align: center;
-	display: table-cell;
-    vertical-align: middle;
-}
-
-.button {
-	background-color: black;
-	text-decoration: none;
-	text-align: center;
-	padding: 10px;
-	border: none;
-	border-radius: 15px;
-	font-size: 10px;
-}
-
-.button-text {
-	text-decoration: none;
-	color: white;
-}
-
-.button:hover {
-	text-decoration: none;
-}
-
-#contact {
-	color: white;
-	height: 100%;
-	width: 100%;
-	padding: 50px;
-	text-align: center;
-	background-color: #222222;
-}
-
-div {
-	position: relative;
-}
-
-.divider {
-	width: 95%;
-	border-width: 3px;
-	color: black;
-}
-
-.error {
-	display: inline;
-}
-
-header {
-	position: relative;
-    text-align: center;
-    color: white;
-    -webkit-background-size: cover;
+.full {
+	-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-position: center;
-    background: url(/images/earthporn.jpg) no-repeat center center fixed;
+    background: url(../img/bg.jpg) no-repeat center center fixed;
 }
 
-.header-content {
-	padding-top: 300px;
-	padding-bottom: 300px;
-}
-
-hr {
-	width: 5%;
-	border-width: 2px;
-	color: blue;
-}
-
-img {
-	border-radius: 5%;
-}
-
-.Images {
-	position: relative;
-	padding: 10px;
+.content {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
 	text-align: center;
-}
-
-.Images-description {
-	text-align: center;
-	position: relative;
-	width: 60%;
-}
-
-.Images-content {
 	color: white;
-	text-align: center;
-	top: 75px;
-	padding: 0 50px 0;
-	left: 20px;
-	bottom: 0;
-	margin: 0 auto;
-	position: relative;
 }
 
-#projects {
-	height: 100%;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	width: 100%;
-	color: black;
+.content h1 {
+	font-size: 3em;
 }
 
-.sm {
-	text-align: center;
+.icon {
+	color: white;
+    padding: 1em;
 }
 
-.top-content {
-	position: relative;
-	padding-top: 300px;
-	padding-bottom: 300px;
-}
-
-ul {
-	margin: auto;
-	text-align: center;
-	list-style: none;
-	display: inline;
-}
-
-ul li {
-	display: inline;
-	padding-right: 25px;
+.center {
+    margin: auto;
+    text-align: center;
 }
